@@ -675,5 +675,5 @@ int hw_device_setup_for_decode(InputStream *ist);
 int hw_device_setup_for_encode(OutputStream *ost);
 
 int hwaccel_decode_init(AVCodecContext *avctx);
-
+int run(int argc, char **argv);
 #endif /* FFTOOLS_FFMPEG_H */
