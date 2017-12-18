@@ -7,25 +7,33 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button mbtnOne, mBtnTwo;
+    private Button mbtnOne, mBtnTwo, mBtnThree;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mbtnOne = (Button) findViewById(R.id.btn1);
         mBtnTwo = (Button) findViewById(R.id.btn2);
+        mBtnThree = (Button)findViewById(R.id.btn3);
 
         mbtnOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, TestActivity.class);
-                 startActivity(intent);
+              //  Intent intent = new Intent(MainActivity.this, TestActivity.class);
+              //   startActivity(intent);
             }
         });
         mBtnTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, TestActivity.class);
+             //   Intent intent = new Intent(MainActivity.this, TestActivity.class);
+             //   startActivity(intent);
+            }
+        });
+        mBtnThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,com.example.ffmpeg.command.MainActivity.class);
                 startActivity(intent);
             }
         });

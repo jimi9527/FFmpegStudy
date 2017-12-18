@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FFmpegStudy.iml" filepath="$PROJECT_DIR$/FFmpegStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decoderh264/decoderh264.iml" filepath="$PROJECT_DIR$/decoderh264/decoderh264.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpeg_command/ffmpeg_command.iml" filepath="$PROJECT_DIR$/ffmpeg_command/ffmpeg_command.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpeg_test/ffmpeg_test.iml" filepath="$PROJECT_DIR$/ffmpeg_test/ffmpeg_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpeg_test1/ffmpeg_test1.iml" filepath="$PROJECT_DIR$/ffmpeg_test1/ffmpeg_test1.iml" />
